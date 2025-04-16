@@ -196,26 +196,30 @@ export default function Home() {
   ))}
 </section>
 
-      <section id="blog" className="mt-12 p-6 border border-blue-300 bg-white shadow-md rounded-lg w-full max-w-3xl">
+<section id="blog" className="mt-12 p-6 border border-blue-300 bg-white shadow-md rounded-lg w-full max-w-3xl">
   <h3 className="text-2xl font-bold text-indigo-800 mb-4">Artikel Terbaru</h3>
   <div className="space-y-4">
     <div className="flex items-center justify-between p-4 border-b border-gray-300">
       <h4 className="text-lg font-semibold text-gray-800">5 Tips Desain Web Esensial</h4>
-      <Link 
-        href="/blog/essential-design-tips" 
+      <a
+        href="https://www.wix.com/blog/5-design-tips-for-a-professional-site"
+        target="_blank"
+        rel="noopener noreferrer"
         className="text-indigo-700 hover:underline"
       >
         Baca Selengkapnya
-      </Link>
+      </a>
     </div>
     <div className="flex items-center justify-between p-4 border-b border-gray-300">
       <h4 className="text-lg font-semibold text-gray-800">Optimalkan Website Anda</h4>
-      <Link 
-        href="/blog/website-performance" 
+      <a
+        href="https://www.hostinger.co.id/tutorial/cara-meningkatkan-kecepatan-website"
+        target="_blank"
+        rel="noopener noreferrer"
         className="text-indigo-700 hover:underline"
       >
         Baca Selengkapnya
-      </Link>
+      </a>
     </div>
   </div>
 </section>
